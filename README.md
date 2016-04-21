@@ -6,9 +6,9 @@ The Starter Kit contains a sample AngularJS application (the one reported in the
 
 Moreover, the Starter Kit is preconfigured to install a bunch of development tools for easing the development of a project:
 
-1) [`browser-sync`](https://www.browsersync.io/), a time-saving synchronized browser testing tool
-2) [`jshint`](http://jshint.com/), for JS linting, preconfigured for AngularJS
-3) [`firebase-tools`](https://www.firebase.com/), for deploying the webapp to the Firebase Hosting service.
+- [`browser-sync`](https://www.browsersync.io/), a time-saving synchronized browser testing tool
+- [`jshint`](http://jshint.com/), for JS linting, preconfigured for AngularJS
+- [`firebase-tools`](https://www.firebase.com/), for deploying the webapp to the Firebase Hosting service.
 
 The included app doesn't do much, just shows how to wire two controllers and views together.
 
@@ -50,6 +50,7 @@ package.json            --> metadata, dependencies and npm scripts
 README.md               --> this document
 ```
 
-## Note
+### Note
 This project was created for teaching purpose. AngularJS and Bootstrap should be installed with `npm` or `bower` instead of being downloaded in a `lib` folder. Due to some limitations on the lab computers, this was not possible.
+
 For the students enrolled in the course: notice that all the development tools provided by npm (and present in the `package.json` file) *do not* work on the lab desktop computers.
