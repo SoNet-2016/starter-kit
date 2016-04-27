@@ -14,7 +14,6 @@
     "start-bsync": "browser-sync start --config bs-config.js",
     "lint": "jshint app/**/*.js",
 
-    "fb-init": "firebase init",
     "fb-deploy": "firebase deploy",
 
     "test": "echo \"Error: no test specified\" && exit 1"
